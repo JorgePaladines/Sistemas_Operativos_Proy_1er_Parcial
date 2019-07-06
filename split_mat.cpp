@@ -17,13 +17,13 @@ time ./split_mat lena.jpg
 using namespace cv;
 
 //función que crea las secciones para filtrar
-Mat fun_seccion(Mat src, int cont, int cores){
+/*Mat fun_seccion(Mat src, int cont, int cores){
   int height = src.rows/cores;
   if(cont < (cores-1))
     return src(Rect(0,height*cont,src.cols,height));
   else
     return src(Rect(0,height*cont,src.cols,src.rows-(height*cont)));
-}
+}*/
 
 
 /** @function main */
