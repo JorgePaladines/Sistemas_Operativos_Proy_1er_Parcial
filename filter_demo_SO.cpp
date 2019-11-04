@@ -16,7 +16,7 @@ para medir el tiempo:
 time ./ejemplo_filtro_secuencial lena.jpg
 
 */
-
+ fwwefwe ewfw
 using namespace cv;
 
 /** @function main */
